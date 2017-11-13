@@ -1,0 +1,31 @@
+.body {
+    margin: 8%;
+}
+.header {
+    position: relative;
+    font-size: 70px;
+    margin : 5%;
+    font-family: 'Spectral SC', serif;
+
+}
+.input {
+    width: 210px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px, 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transform: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.input:focus {
+width: 80%
+}
+.img {
+    width: 200px;
+    height: 200px;
+    margin : 4%;
+}
