@@ -9,7 +9,7 @@
 
 }
 .input {
-    width: 210px;
+    width: 260px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -28,4 +28,12 @@ width: 80%
     width: 200px;
     height: 200px;
     margin : 4%;
+}
+.button {
+    margin: 2%;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    width: 130px;
+    
 }
