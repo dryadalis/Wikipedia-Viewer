@@ -1,5 +1,8 @@
 .body {
-    margin: 8%;
+    margin: 2% auto auto auto;
+    padding: 0;
+
+
 }
 .header {
     position: relative;
@@ -34,6 +37,18 @@ width: 80%
     cursor: pointer;
     text-align: center;
     height: 40px;
-    width: 130px;
+    width: 150px;
     
+}
+.output {
+    margin: 2% auto auto auto;
+    font-size: 20px;
+}
+.footer {
+    margin: 4%;
+    font-size: 12px;
+
+}
+.heart {
+    color : red;
 }

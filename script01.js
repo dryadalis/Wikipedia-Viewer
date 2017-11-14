@@ -17,7 +17,7 @@ $(document).ready(function(){
                 //console.log(data[2][0]);
                 $('#output').html('');
                 for (let i = 0; i < data[1].length; i++){
-                $('#output').prepend("<li><a href = " + data[3][i] +">" + data[1][i] +"</a><p>" + data[2][i]+"</p></li>");
+                $('#output').prepend("<a href = " + data[3][i] +">" + data[1][i] +"</a><p>" + data[2][i]+"</p>");
                 }
 
             },
